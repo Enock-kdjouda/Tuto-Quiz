@@ -1,0 +1,246 @@
+{
+    "title": "Questionnaire sur Vue.js , les Films et Séries",
+    "minimum_score": 10,
+    "success_message": "Bravo, tu maîtrises déjà bien Vue.js et les Séries , Films !",
+    "failure_message": "Tu as encore besoin de pratiquer Vue.js... et regarder des Films et Séries",
+    "questions": [
+      {
+        "question": "Quelle directive permet de boucler sur une liste d'éléments en Vue.js ?",
+        "choices": ["v-if", "v-for", "v-model", "v-bind"],
+        "correct_answer": "v-for"
+      },
+      {
+        "question": "Quelle syntaxe est utilisée pour lier dynamiquement un attribut HTML ?",
+        "choices": [":class", "v-once", "v-slot", "v-html"],
+        "correct_answer": ":class"
+      },
+      {
+        "question": "Dans l'Options API, quelle fonction du cycle de vie s'exécute après le montage du composant ?",
+        "choices": ["mounted()", "created()", "beforeMount()", "updated()"],
+        "correct_answer": "mounted()"
+      },
+      {
+        "question": "Dans la Composition API, quel hook remplace le mounted() pour exécuter du code après le montage ?",
+        "choices": ["onUnmounted()", "onUpdated()", "onMounted()", "onBeforeMount()"],
+        "correct_answer": "onMounted()"
+      },
+      {
+        "question": "Quelle directive permet d'afficher conditionnellement un élément dans le DOM ?",
+        "choices": ["v-if", "v-bind", "v-show", "v-pre"],
+        "correct_answer": "v-if"
+      },
+      {
+        "question": "Quel est le rôle de la directive v-if en Vue.js ?",
+        "choices": [
+        "Répéter un élément plusieurs fois",
+        "Appliquer un style dynamique",
+        "Afficher un élément seulement si la condition est vraie",
+        "Attacher un événement au clic"
+      ],
+      "correct_answer": "Afficher un élément seulement si la condition est vraie"
+      },
+      {
+        "question": "Quelle syntaxe permet de lier dynamiquement une classe CSS ?",
+        "choices": [
+          "v-class=\"...\"",
+          ":class=\"...\"",
+          "v-bind:style=\"...\"",
+          "@click=\"...\""
+        ],
+        "correct_answer": ":class=\"...\""
+      },
+      {
+        "question": "Dans la Composition API, quel hook s’exécute après que le composant soit monté ?",
+        "choices": [
+          "created()",
+          "onBeforeUnmount()",
+          "onMounted()",
+          "mounted()"
+        ],
+        "correct_answer": "onMounted()"
+      },
+      {
+        "question": "Dans quel film trouve-t-on le personnage de Jack Dawson?",
+        "choices": ["Titanic", "Le Seigneur des Anneaux", "Inception", "Avatar"],
+        "correct_answer": "Titanic"
+      },
+      {
+        "question": "Quelle série met en scène le personnage de Walter White?",
+        "choices": [
+          "Breaking Bad",
+          "Stranger Things",
+          "Game of Thrones",
+          "The Walking Dead"
+        ],
+        "correct_answer": "Breaking Bad"
+      },
+      {
+        "question": "Dans quel film Harry Potter rencontre-t-il pour la première fois Lord Voldemort?",
+        "choices": [
+          "Harry Potter à l'école des sorciers",
+          "Harry Potter et la Chambre des secrets",
+          "Harry Potter et le Prisonnier d'Azkaban",
+          "Harry Potter et la Coupe de feu"
+        ],
+        "correct_answer": "Harry Potter à l'école des sorciers"
+      },
+      {
+        "question": "Quel est le nom de l'intelligence artificielle dans '2001: L'Odyssée de l'espace'?",
+        "choices": ["HAL 9000", "Siri", "Cortana", "Jarvis"],
+        "correct_answer": "HAL 9000"
+      },
+      {
+        "question": "Qui joue le rôle principal dans la série 'Sherlock' de la BBC?",
+        "choices": [
+          "Benedict Cumberbatch",
+          "David Tennant",
+          "Matt Smith",
+          "Tom Hiddleston"
+        ],
+        "correct_answer": "Benedict Cumberbatch"
+      },
+      {
+        "question": "Quel acteur joue le rôle principal dans la série 'Breaking Bad' ?",
+        "choices": ["Bryan Cranston", "Aaron Paul", "Giancarlo Esposito", "Bob Odenkirk"],
+        "correct_answer": "Bryan Cranston"
+      },
+      {
+        "question": "Dans Vue.js, quelle directive est utilisée pour écouter un événement ?",
+        "choices": ["v-bind", "v-if", "v-on", "v-for"],
+        "correct_answer": "v-on"
+      },
+      {
+        "question": "Quel est le nom de la saga de films où un anneau magique doit être détruit pour sauver la Terre du Milieu ?",
+        "choices": ["Harry Potter", "Le Seigneur des Anneaux", "Narnia", "Game of Thrones"],
+        "correct_answer": "Le Seigneur des Anneaux"
+      },
+      {
+        "question": "Dans Vue.js, quel composant est utilisé pour gérer la navigation entre les pages ?",
+        "choices": ["VueX", "VueRoute", "VueRouter", "VuePage"],
+        "correct_answer": "VueRouter"
+      },
+      {
+        "question": "Quel personnage de film est célèbre pour la réplique 'Je suis ton père' ?",
+        "choices": ["Dumbledore", "Darth Vader", "Gandalf", "Joker"],
+        "correct_answer": "Darth Vader"
+      },
+      {
+        "question": "Dans Vue.js, quelle fonction est utilisée pour surveiller les changements d'une variable réactive ?",
+        "choices": ["watch()", "onUpdated()", "computed()", "setTimeout()"],
+        "correct_answer": "watch()"
+      },
+      
+      {
+        "question": "Quel joueur détient le record du plus grand nombre de Ballons d'Or ?",
+        "choices": ["Cristiano Ronaldo", "Lionel Messi", "Pelé", "Zinedine Zidane"],
+        "correct_answer": "Lionel Messi"
+      },
+      {
+        "question": "Quelle commande permet d'installer Vue CLI ?",
+        "choices": ["npm install -g @vue/cli", "vue create project", "npm create vue-app", "vue-cli init"],
+        "correct_answer": "npm install -g @vue/cli"
+      },
+      {
+        "question": "Quel hook est utilisé pour exécuter du code après le rendu initial du composant ?",
+        "choices": ["onMounted()", "onCreated()", "onUpdated()", "onRender()"],
+        "correct_answer": "onMounted()"
+      },
+      {
+        "question": "Quelle directive Vue.js est utilisée pour créer une boucle sur une liste d'éléments ?",
+        "choices": ["v-for", "v-if", "v-loop", "v-repeat"],
+        "correct_answer": "v-for"
+      },
+      {
+        "question": "Quel outil est recommandé pour la gestion d’état dans Vue 3 ?",
+        "choices": ["Vuex", "Pinia", "Redux", "MobX"],
+        "correct_answer": "Pinia"
+      },
+      {
+        "question": "Quelle directive est utilisée pour lier dynamiquement un attribut HTML ?",
+        "choices": ["v-model", "v-bind", "v-html", "v-attr"],
+        "correct_answer": "v-bind"
+      },
+      {
+        "question": "Quelle fonctionnalité de Vue.js permet de créer des variables réactives ?",
+        "choices": ["computed()", "ref()", "watch()", "state()"],
+        "correct_answer": "ref()"
+      },
+      {
+        "question": "Comment appelle-t-on les blocs de code réutilisables dans Vue.js ?",
+        "choices": ["Composants", "Modules", "Directives", "Mixins"],
+        "correct_answer": "Composants"
+      },
+      {
+        "question": "Quelle commande permet de démarrer un projet Vue.js avec Vite ?",
+        "choices": ["vue create my-app", "npm create vite@latest my-app", "vue start", "vite serve"],
+        "correct_answer": "npm create vite@latest my-app"
+      },
+      {
+        "question": "Quel fichier est utilisé pour gérer les routes dans une application Vue.js ?",
+        "choices": ["router.js", "routes.vue", "index.js", "vue-router.js"],
+        "correct_answer": "router.js"
+      },
+      {
+        "question": "Quelle est la principale différence entre Vue 2 et Vue 3 ?",
+        "choices": [
+          "Vue 3 introduit le Composition API",
+          "Vue 3 ne supporte plus les composants",
+          "Vue 2 utilise TypeScript par défaut",
+          "Vue 3 est exclusivement basé sur Vuex"
+        ],
+        "correct_answer": "Vue 3 introduit le Composition API"
+      },
+      {
+        "question": "Dans quel film trouve-t-on le personnage de Jack Dawson ?",
+        "choices": ["Titanic", "Le Seigneur des Anneaux", "Inception", "Avatar"],
+        "correct_answer": "Titanic"
+      },
+      {
+        "question": "Quel acteur incarne Walter White dans Breaking Bad ?",
+        "choices": ["Bryan Cranston", "Aaron Paul", "Bob Odenkirk", "Giancarlo Esposito"],
+        "correct_answer": "Bryan Cranston"
+      },
+      {
+        "question": "Quel est le nom du vaisseau spatial dans la saga Star Wars ?",
+        "choices": ["Millennium Falcon", "USS Enterprise", "Normandy", "TIE Fighter"],
+        "correct_answer": "Millennium Falcon"
+      },
+      {
+        "question": "Qui a réalisé le film 'Interstellar' ?",
+        "choices": ["Christopher Nolan", "Quentin Tarantino", "James Cameron", "Steven Spielberg"],
+        "correct_answer": "Christopher Nolan"
+      },
+      {
+        "question": "Dans la série 'Game of Thrones', quel est le nom du loup de Jon Snow ?",
+        "choices": ["Ghost", "Nymeria", "Summer", "Grey Wind"],
+        "correct_answer": "Ghost"
+      },
+      {
+        "question": "Quel joueur a marqué le but de la victoire en finale de la Coupe du Monde 2014 ?",
+        "choices": ["Mario Götze", "Lionel Messi", "Thomas Müller", "Cristiano Ronaldo"],
+        "correct_answer": "Mario Götze"
+      },
+      {
+        "question": "Quel club a remporté le plus de Ligues des Champions ?",
+        "choices": ["Real Madrid", "FC Barcelone", "Bayern Munich", "Manchester United"],
+        "correct_answer": "Real Madrid"
+      },
+      {
+        "question": "Qui est le meilleur buteur de l'histoire de la Coupe du Monde ?",
+        "choices": ["Miroslav Klose", "Pelé", "Cristiano Ronaldo", "Diego Maradona"],
+        "correct_answer": "Miroslav Klose"
+      },
+      {
+        "question": "Quel joueur détient le record du plus grand nombre de Ballons d'Or ?",
+        "choices": ["Cristiano Ronaldo", "Lionel Messi", "Pelé", "Zinedine Zidane"],
+        "correct_answer": "Lionel Messi"
+      },
+      {
+        "question": "Quel club a remporté la Ligue des Champions en 2023 ?",
+        "choices": ["Manchester City", "Real Madrid", "Bayern Munich", "Liverpool"],
+        "correct_answer": "Manchester City"
+      }
+      
+    ]
+  }
+  
