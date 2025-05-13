@@ -16,10 +16,10 @@ const props = defineProps({
 })
 
 // Partie de time
-const emits = defineEmits(['change'])
-const onChange = (event) => {
-   emits('change', event)
-}
+// const emits = defineEmits(['change'])
+// const onChange = (event) => {
+//    emits('change', event)
+// }
 // Fin de la partie
 const model = defineModel()
 const classes = computed(() => ({

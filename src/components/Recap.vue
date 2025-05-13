@@ -1,5 +1,5 @@
 <template>
-    <h1>Recapitulatif</h1>
+    <h1>Récapitulatif</h1>
     <p>
         {{ hasWon ? quiz.success_message : quiz.failure_message }}
     </p>

@@ -13,8 +13,9 @@
 />
             </li>
         </ul>
-        <!-- <button :disabled="!hasAnswer" @click="emits('answer', answer)">Question suivante</button>
-         -->
+        <!-- //Partie des boutons -->
+        <button :disabled="!hasAnswer" @click="emits('answer', answer)">Question suivante</button>
+        <!-- //Fin de la partie -->
     </div>
 </template>
 <script setup>
@@ -29,26 +30,26 @@
     const answer = ref(null)
     const hasAnswer = computed(() => answer.value !== null)
     const randomChoices = computed(() => shuffleArray(props.question.choices))
-    const onAnswer = (e) => {
-        // Partie de time
-        clearTimeout(timer)
-        timer = setTimeout(() => {
-            emits('answer', answer.value)
+    // const onAnswer = (e) => {
+    //     // Partie de time
+    //     clearTimeout(timer)
+    //     timer = setTimeout(() => {
+    //         emits('answer', answer.value)
             
-        },5_000)
-    }
+    //     },5_000)
+    // }
 
-    let timer
+    // let timer
 
-    onMounted(() => {
-        timer = setTimeout(() => {
-            emits('answer', answer.value)
+    // onMounted(() => {
+    //     timer = setTimeout(() => {
+    //         emits('answer', answer.value)
             
-        },12_000)
-    })
-    onUnmounted(() => {
-        clearTimeout(timer)
-    })
+    //     },12_000)
+    // })
+    // onUnmounted(() => {
+    //     clearTimeout(timer)
+    // })
     // Fin de la partie
 </script>
 <style>
